@@ -1,3 +1,7 @@
+/*Variabes*/
+
+$color-maim: #0d6efd;
+
 /*Global*/
 
 i {
@@ -12,25 +16,34 @@ h1 {
     margin: 10px;
 }
 
+body {
+    background-image: url("https://i.postimg.cc/JzFPxL0z/6214e42eee47d.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+}
+
 /*Name*/
 
 .name {
-background-color: #0d6efd;
+background: rgba(13, 110, 253, 0.5);
+filter: alpha(opacity=50);
 color: white;
 font-family: 'Press Start 2P', cursive;
 }
 
 /*Buttons*/
 
-.buttons {
-    color: #0d6efd;
+.game {
+    color: white;
     font-family: 'Press Start 2P', cursive;
+    margin: 2rem;
 }
 
 /*Result*/
 
 .result {
-    background-color: #0d6efd;
+    background: rgba(13, 110, 253, 0.5);
+    filter: alpha(opacity=50);
     color: white;
     font-size: 30px;
     font-family: 'Press Start 2P', cursive;
