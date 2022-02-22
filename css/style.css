@@ -1,3 +1,39 @@
+/*Global*/
+section {
+  background-color: #ecf0f1;
+}
 
+i {
+  font-size: 100px;
+}
 
-/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbXSwibmFtZXMiOltdLCJtYXBwaW5ncyI6IiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
+h1 {
+  font-family: "Press Start 2P", cursive;
+}
+
+.btn {
+  margin: 10px;
+}
+
+/*Name*/
+.name {
+  background-color: #0d6efd;
+  color: white;
+  font-family: "Press Start 2P", cursive;
+}
+
+/*Game*/
+.game {
+  color: #0d6efd;
+  font-family: "Press Start 2P", cursive;
+}
+
+/*Result*/
+.result {
+  background-color: #0d6efd;
+  color: white;
+  font-size: 30px;
+  font-family: "Press Start 2P", cursive;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIi4uL3Nhc3Mvc3R5bGUuc2NzcyIsInN0eWxlLmNzcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUFBQSxTQUFBO0FBRUE7RUFDQSx5QkFBQTtBQ0FBOztBREdBO0VBQ0ksZ0JBQUE7QUNBSjs7QURHQTtFQUNJLHNDQUFBO0FDQUo7O0FER0E7RUFDSSxZQUFBO0FDQUo7O0FER0EsT0FBQTtBQUVBO0VBQ0EseUJBQUE7RUFDQSxZQUFBO0VBQ0Esc0NBQUE7QUNEQTs7QURHQSxPQUFBO0FBRUE7RUFDSSxjQUFBO0VBQ0Esc0NBQUE7QUNESjs7QURJQSxTQUFBO0FBRUE7RUFDSSx5QkFBQTtFQUNBLFlBQUE7RUFDQSxlQUFBO0VBQ0Esc0NBQUE7QUNGSiIsImZpbGUiOiJzdHlsZS5jc3MifQ== */
