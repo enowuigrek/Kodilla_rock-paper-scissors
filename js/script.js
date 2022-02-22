@@ -22,21 +22,21 @@ function buttonClicked(argButtonName) {
 	function displayResult(argPlayerMove, argComputerMove) {
 		console.log('wywołano funkcję displayResults z argumentami: ' + argPlayerMove + ', ' + argComputerMove);
 		if (argPlayerMove == 'papier' && argComputerMove == 'kamień') {
-		printMessage('Wygrałeś!');
+		printMessage('<i class="fas fa-angry"></i><br>Wygrałeś!');
 		}
 		else if (argPlayerMove == 'kamień' && argComputerMove == 'nożyce') {
-		printMessage('Wygrałeś!');
+		printMessage('<i class="fas fa-angry"></i><br>Wygrałeś.');
 		}
 		else if (argPlayerMove == 'nożyce' && argComputerMove == 'papier') {
-		printMessage('Wygrałeś!');
+		printMessage('<i class="fas fa-angry"></i><br>Wygrałeś!!');
 		}
 		else if (argPlayerMove == argComputerMove) {
-		printMessage('Remis! Dawaj jeszcze raz.');
+		printMessage('<i class="fas fa-meh-blank"></i><br>Remis! Dawaj jeszcze raz.');
 		}
 		else {
-		printMessage('Przegrałeś!!!');
+		printMessage('<i class="fas fa-grin-tongue-squint"></i><br>Przegrałeś!!!');
 		}
-		printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove);
+		printMessage('Zagrałem ' + argComputerMove + ', a Ty ' + argPlayerMove + '.');
 	}
 	playerMove = argButtonName;
 	console.log('ruch gracza to: ' + playerMove);
