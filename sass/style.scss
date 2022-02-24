@@ -1,6 +1,7 @@
 /*Variabes*/
 
-$color-maim: #0d6efd;
+$color-maim: rgba(13, 110, 253, 0.5);
+$color-hover: rgba(217, 232, 255, 0.5);
 
 /*Global*/
 
@@ -10,6 +11,10 @@ i {
 
 h1 {
     font-family: 'Press Start 2P', cursive;
+}
+
+h2 {
+    padding-bottom: 30px;
 }
 
 .btn {
@@ -25,8 +30,7 @@ body {
 /*Name*/
 
 .name {
-background: rgba(13, 110, 253, 0.5);
-filter: alpha(opacity=50);
+background: $color-maim;
 color: white;
 font-family: 'Press Start 2P', cursive;
 }
@@ -39,11 +43,19 @@ font-family: 'Press Start 2P', cursive;
     margin: 2rem;
 }
 
+.button {
+    color: white;
+    background: $color-maim;
+    border: none;
+    &:hover {
+        background-color: $color-hover;
+    }
+}
+
 /*Result*/
 
 .result {
-    background: rgba(13, 110, 253, 0.5);
-    filter: alpha(opacity=50);
+    background: $color-maim;
     color: white;
     font-size: 30px;
     font-family: 'Press Start 2P', cursive;
